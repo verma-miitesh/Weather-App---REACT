@@ -1,4 +1,41 @@
-.SearchBox{
-    text-align: center;
-    margin-bottom: 25px;
+.SearchBox {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Style MUI TextField */
+.SearchBox .MuiOutlinedInput-root {
+  color: white;
+  border-radius: 6px;
+}
+
+.SearchBox .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.SearchBox .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #90caf9; /* lighter blue on hover */
+}
+
+.SearchBox .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #2196f3; /* primary blue on focus */
+}
+
+.SearchBox .MuiInputLabel-root {
+  color: white;
+}
+
+.SearchBox .Mui-focused.MuiInputLabel-root {
+  color: #2196f3;
+}
+
+/* Style MUI Button */
+.SearchBox .MuiButton-contained {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+}
+
+.SearchBox .MuiButton-contained:hover {
+  background-color: #1976d2;
 }
